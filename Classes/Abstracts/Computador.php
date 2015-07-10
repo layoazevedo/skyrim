@@ -8,8 +8,6 @@ abstract class Computador {
 	protected $processador;
 	protected $memoriaRam;
 
-	protected abstract function ComputadorPronto($placa, $processador, $memoriaRam, $valor);
-
 	protected abstract function setPlaca($placa);
 
 	protected abstract function setProcessador($processador);

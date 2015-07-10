@@ -5,10 +5,6 @@ error_reporting(E_ALL);
 
 require_once("vendor/autoload.php");
 
-//use Classes\Concretas\Loja;
-
-//new Loja();
-
 use Classes\Concretas\Computador;
 use Classes\Concretas\PlacaAsus;
 use Classes\Concretas\ProcessadorIntel;
